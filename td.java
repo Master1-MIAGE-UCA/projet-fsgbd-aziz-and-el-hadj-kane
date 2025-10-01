@@ -99,7 +99,7 @@ public class td {
             }
 
         } catch (IOException e) {
-            System.err.println("Une erreur est survenue: " + e.getMessage());
+            System.err.println("Une erreur est survenu: " + e.getMessage());
             e.printStackTrace();
         }
     }
