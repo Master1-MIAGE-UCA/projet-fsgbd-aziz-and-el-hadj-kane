@@ -2,8 +2,8 @@ import java.io.*;
 import java.util.*;
 
 public class TD3 extends TD2 {
-    private boolean inTransaction = false;
-    private long recordCountBeforeTransaction;
+    protected boolean inTransaction = false;
+    protected long recordCountBeforeTransaction;
 
     public TD3(String filename) throws IOException {
         super(filename);
